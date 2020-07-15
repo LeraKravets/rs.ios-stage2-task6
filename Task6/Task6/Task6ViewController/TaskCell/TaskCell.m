@@ -68,38 +68,14 @@ int const BUTTON_HEIGH = 55;
 //                         action:@selector(selectorBackButtonTapped:)
 //               forControlEvents:UIControlEventTouchUpInside];
 
-    self.backButton.translatesAutoresizingMaskIntoConstraints = false;
-    NSLayoutConstraint *constraint1 = [NSLayoutConstraint constraintWithItem:self.backButton
-                                                                      attribute:NSLayoutAttributeTop
-                                                                      relatedBy:NSLayoutRelationEqual
-                                                                         toItem:self.cVButton
-                                                                      attribute:NSLayoutAttributeBottom
-                                                                     multiplier:1
-                                                                       constant:5];
+    self.backButton.translatesAutoresizingMaskIntoConstraints = NO;
+    NSLayoutConstraint *constraint1 = [NSLayoutConstraint constraintWithItem:self.backButton attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.cVButton attribute:NSLayoutAttributeBottom multiplier:1 constant:5];
 
-    NSLayoutConstraint *constraint2 = [NSLayoutConstraint constraintWithItem:self.backButton
-                                                                   attribute:NSLayoutAttributeHeight
-                                                                   relatedBy:NSLayoutRelationEqual
-                                                                      toItem:nil
-                                                                   attribute:NSLayoutAttributeNotAnAttribute
-                                                                  multiplier:1
-                                                                    constant:BUTTON_HEIGH];
+    NSLayoutConstraint *constraint2 = [NSLayoutConstraint constraintWithItem:self.backButton attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1 constant:BUTTON_HEIGH];
 
-    NSLayoutConstraint *constraint3 = [NSLayoutConstraint constraintWithItem:self.backButton
-                                                                   attribute:NSLayoutAttributeWidth
-                                                                   relatedBy:NSLayoutRelationEqual
-                                                                      toItem:nil
-                                                                   attribute:NSLayoutAttributeNotAnAttribute
-                                                                  multiplier:1
-                                                                    constant:300];
+    NSLayoutConstraint *constraint3 = [NSLayoutConstraint constraintWithItem:self.backButton attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1 constant:300];
 
-    NSLayoutConstraint *constraint4 = [NSLayoutConstraint constraintWithItem:self.backButton
-                                                                   attribute:NSLayoutAttributeCenterX
-                                                                   relatedBy:NSLayoutRelationEqual
-                                                                      toItem:self.secondBorderImage
-                                                                   attribute:NSLayoutAttributeCenterX
-                                                                  multiplier:1
-                                                                    constant:0];
+    NSLayoutConstraint *constraint4 = [NSLayoutConstraint constraintWithItem:self.backButton attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self.secondBorderImage attribute:NSLayoutAttributeCenterX multiplier:1 constant:0];
 
     [constraint1 setActive:true];
     [constraint2 setActive:true];
@@ -118,7 +94,7 @@ int const BUTTON_HEIGH = 55;
 //                         action:@selector(selectorCVButtonTapped:)
 //               forControlEvents:UIControlEventTouchUpInside];
 
-    self.cVButton.translatesAutoresizingMaskIntoConstraints = false;
+    self.cVButton.translatesAutoresizingMaskIntoConstraints = NO;
     NSLayoutConstraint *constraint1 = [NSLayoutConstraint constraintWithItem:self.cVButton
                                                                       attribute:NSLayoutAttributeTop
                                                                       relatedBy:NSLayoutRelationEqual

@@ -20,6 +20,7 @@
 @implementation AppDelegate
 
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
 //    self.window.rootViewController = [StartViewController new];
@@ -61,6 +62,12 @@
     [tabBarController setSelectedIndex:1];
 
     self.window.rootViewController = tabBarController;
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+//    self.isActive = true;
+//    [[NSNotificationCenter defaultCenter] postNotificationName: @"updateInfoTable"
+//    object:self];
 }
 
 @end

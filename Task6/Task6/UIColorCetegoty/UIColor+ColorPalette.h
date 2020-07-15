@@ -14,7 +14,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIColor (ColorPalette)
-
++ (UIColor *) convertColorWithHex: (int) hexValue;
 + (UIColor *) customBlack;
 + (UIColor *) customWhite;
 + (UIColor *) customRed;

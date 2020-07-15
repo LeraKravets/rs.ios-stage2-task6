@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Task6ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface Task6ViewController : UIViewController
 
 @end
 

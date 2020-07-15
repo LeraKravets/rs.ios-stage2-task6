@@ -33,7 +33,7 @@
 //    self.myPhoneLabel.text = @"My iPhone";
 //    self.myPhoneLabel.textAlignment = NSTextAlignmentCenter;
 //    [self.cellView addSubview: self.myPhoneLabel];
-//    self.myPhoneLabel.translatesAutoresizingMaskIntoConstraints = false;
+//    self.myPhoneLabel.translatesAutoresizingMaskIntoConstraints = NO;
 //
 //    NSLayoutConstraint *constraint1 = [NSLayoutConstraint constraintWithItem:self.myPhoneLabel
 //                                                                  attribute:NSLayoutAttributeTop
@@ -77,7 +77,7 @@
 //               forControlEvents:UIControlEventTouchUpInside];
 //
 //    [self.cellView addSubview: self.backButton];
-//    self.backButton.translatesAutoresizingMaskIntoConstraints = false;
+//    self.backButton.translatesAutoresizingMaskIntoConstraints = NO;
 //
 //    NSLayoutConstraint *constraint1 = [NSLayoutConstraint constraintWithItem:self.backButton
 //                                                                   attribute:NSLayoutAttributeTop

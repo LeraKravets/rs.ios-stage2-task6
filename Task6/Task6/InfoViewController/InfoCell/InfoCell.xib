@@ -31,16 +31,13 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pnh-kI-4w4">
-                        <rect key="frame" x="85" y="28.5" width="125" height="21"/>
+                        <rect key="frame" x="85" y="28.5" width="209" height="21"/>
                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8I-O9-TJh">
-                        <rect key="frame" x="110" y="59.5" width="100" height="14.5"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="100" id="CzH-7U-uDf"/>
-                        </constraints>
+                        <rect key="frame" x="110" y="59.5" width="184" height="14.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -49,6 +46,7 @@
                 <constraints>
                     <constraint firstItem="Pnh-kI-4w4" firstAttribute="leading" secondItem="BBE-gj-UVY" secondAttribute="trailing" constant="10" id="8HE-qE-W5B"/>
                     <constraint firstItem="E8I-O9-TJh" firstAttribute="top" secondItem="Pnh-kI-4w4" secondAttribute="bottom" constant="10" id="ERY-Oo-oSX"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="E8I-O9-TJh" secondAttribute="trailing" constant="10" id="GVw-ad-DbZ"/>
                     <constraint firstItem="E8I-O9-TJh" firstAttribute="leading" secondItem="Hb0-Hf-Uf7" secondAttribute="trailing" constant="5" id="JqE-G5-dMP"/>
                     <constraint firstItem="BBE-gj-UVY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="RGz-tQ-3wa"/>
                     <constraint firstItem="Pnh-kI-4w4" firstAttribute="trailing" secondItem="E8I-O9-TJh" secondAttribute="trailing" id="gRf-bw-dT9"/>

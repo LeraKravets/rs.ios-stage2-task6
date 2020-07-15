@@ -36,7 +36,7 @@ int const BUTTON_HEIGHT = 55;
 - (void)setupView {
 //    self.mainView = [[UIView alloc] initWithFrame:self.view.bounds];
     self.mainView = [[UIView alloc] init];
-    self.mainView.translatesAutoresizingMaskIntoConstraints = false;
+    self.mainView.translatesAutoresizingMaskIntoConstraints = NO;
     self.mainView.backgroundColor = UIColor.customWhite;
     [self.view addSubview: self.mainView];
 
@@ -55,7 +55,7 @@ int const BUTTON_HEIGHT = 55;
     self.readyLabel.textColor = UIColor.customBlack;
     self.readyLabel.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview: self.readyLabel];
-    self.readyLabel.translatesAutoresizingMaskIntoConstraints = false;
+    self.readyLabel.translatesAutoresizingMaskIntoConstraints = NO;
 
     NSLayoutConstraint *constraint1 = [NSLayoutConstraint constraintWithItem:self.readyLabel
                                                                   attribute:NSLayoutAttributeTop
@@ -99,7 +99,7 @@ int const BUTTON_HEIGHT = 55;
                forControlEvents:UIControlEventTouchUpInside];
 
     [self.view addSubview: self.startButtom];
-    self.startButtom.translatesAutoresizingMaskIntoConstraints = false;
+    self.startButtom.translatesAutoresizingMaskIntoConstraints = NO;
 
     NSLayoutConstraint *constraint1 = [NSLayoutConstraint constraintWithItem:self.startButtom
                                                                    attribute:NSLayoutAttributeBottom

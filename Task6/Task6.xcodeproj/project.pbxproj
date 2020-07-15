@@ -10,6 +10,8 @@
 		CF5A41CB24A28AB100EEA37B /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5A41CA24A28AB100EEA37B /* InfoViewController.m */; };
 		CF5A41D324A28B3D00EEA37B /* GalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5A41D224A28B3D00EEA37B /* GalleryViewController.m */; };
 		CF5A41D724A28B7F00EEA37B /* Task6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5A41D624A28B7F00EEA37B /* Task6ViewController.m */; };
+		CF5CC48924BA7EB5004BD14B /* InfoCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5CC48824BA7EB5004BD14B /* InfoCellViewModel.m */; };
+		CF5CC48D24BA889D004BD14B /* FileDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5CC48C24BA889D004BD14B /* FileDataViewController.m */; };
 		CF7E920524A4E7DE00A8F717 /* Task6Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E920424A4E7DE00A8F717 /* Task6Cell.m */; };
 		CF7E920A24A4F40D00A8F717 /* InfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7E920824A4F40D00A8F717 /* InfoCell.m */; };
 		CF7E920B24A4F40D00A8F717 /* InfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF7E920924A4F40D00A8F717 /* InfoCell.xib */; };
@@ -32,6 +34,10 @@
 		CF5A41D224A28B3D00EEA37B /* GalleryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalleryViewController.m; sourceTree = "<group>"; };
 		CF5A41D524A28B7F00EEA37B /* Task6ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Task6ViewController.h; sourceTree = "<group>"; };
 		CF5A41D624A28B7F00EEA37B /* Task6ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task6ViewController.m; sourceTree = "<group>"; };
+		CF5CC48724BA7EB5004BD14B /* InfoCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoCellViewModel.h; sourceTree = "<group>"; };
+		CF5CC48824BA7EB5004BD14B /* InfoCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoCellViewModel.m; sourceTree = "<group>"; };
+		CF5CC48B24BA889D004BD14B /* FileDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileDataViewController.h; sourceTree = "<group>"; };
+		CF5CC48C24BA889D004BD14B /* FileDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileDataViewController.m; sourceTree = "<group>"; };
 		CF7E920324A4E7DE00A8F717 /* Task6Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Task6Cell.h; sourceTree = "<group>"; };
 		CF7E920424A4E7DE00A8F717 /* Task6Cell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task6Cell.m; sourceTree = "<group>"; };
 		CF7E920724A4F40D00A8F717 /* InfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoCell.h; sourceTree = "<group>"; };
@@ -107,6 +113,24 @@
 			path = Task6ViewController;
 			sourceTree = "<group>";
 		};
+		CF5CC48A24BA7EBF004BD14B /* InfoCellViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF5CC48724BA7EB5004BD14B /* InfoCellViewModel.h */,
+				CF5CC48824BA7EB5004BD14B /* InfoCellViewModel.m */,
+			);
+			name = InfoCellViewModel;
+			sourceTree = "<group>";
+		};
+		CF5CC48E24BA88A1004BD14B /* FileDataViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CF5CC48B24BA889D004BD14B /* FileDataViewController.h */,
+				CF5CC48C24BA889D004BD14B /* FileDataViewController.m */,
+			);
+			path = FileDataViewController;
+			sourceTree = "<group>";
+		};
 		CF7E920624A4E7E200A8F717 /* Task6Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +143,7 @@
 		CF7E920C24A4F41100A8F717 /* InfoCell */ = {
 			isa = PBXGroup;
 			children = (
+				CF5CC48A24BA7EBF004BD14B /* InfoCellViewModel */,
 				CF7E920724A4F40D00A8F717 /* InfoCell.h */,
 				CF7E920824A4F40D00A8F717 /* InfoCell.m */,
 				CF7E920924A4F40D00A8F717 /* InfoCell.xib */,
@@ -150,6 +175,7 @@
 				CFB4C02624A1357B002C3AFA /* AppDelegate.m */,
 				CFB4C04324A1401E002C3AFA /* StartViewController */,
 				CF5A41CC24A28AB700EEA37B /* InfoViewController */,
+				CF5CC48E24BA88A1004BD14B /* FileDataViewController */,
 				CF5A41D424A28B4200EEA37B /* GalleryViewController */,
 				CF5A41D824A28B8200EEA37B /* Task6ViewController */,
 				CFB4C02B24A1357B002C3AFA /* ViewController.h */,
@@ -260,9 +286,11 @@
 				CF7E920524A4E7DE00A8F717 /* Task6Cell.m in Sources */,
 				CF5A41D324A28B3D00EEA37B /* GalleryViewController.m in Sources */,
 				CFB4C02724A1357B002C3AFA /* AppDelegate.m in Sources */,
+				CF5CC48D24BA889D004BD14B /* FileDataViewController.m in Sources */,
 				CFB4C04124A13F29002C3AFA /* StartViewController.m in Sources */,
 				CFB4C03824A1357D002C3AFA /* main.m in Sources */,
 				CF5A41CB24A28AB100EEA37B /* InfoViewController.m in Sources */,
+				CF5CC48924BA7EB5004BD14B /* InfoCellViewModel.m in Sources */,
 				CF5A41D724A28B7F00EEA37B /* Task6ViewController.m in Sources */,
 				CFB4C04724A15612002C3AFA /* UIColor+ColorPalette.m in Sources */,
 			);
